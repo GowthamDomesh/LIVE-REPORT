@@ -1,0 +1,46 @@
+.live-reports-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    .category-btns {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        button {
+            min-width: 150px;
+            padding: 6px;
+            border: 1px #243E86 solid;
+            color: #243E86;
+            background: transparent; 
+        }
+        button:hover {
+            cursor: pointer;
+        }
+        .day-report-btn {
+            border-top-left-radius: 5px; 
+            border-bottom-left-radius: 5px;
+        }
+        .sprint-report-btn {
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px;
+        }
+        .btn-primary {
+            background-color: #243E86;
+            color: #ffffff;
+        }
+    }
+    .filters-container {
+        padding: 20px 0;
+        .inner-content-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            min-height: 80px;
+            background-color: #ffffff;
+            border-radius: 5px;
+        } 
+    }
+}

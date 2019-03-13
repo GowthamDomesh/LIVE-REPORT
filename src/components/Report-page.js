@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import '../App.css';
 import { Row, Col, Button } from 'react-bootstrap';
+import HealthCard from './HealthReport';
 
 class ReportPage extends Component {
   render() {
     return (
-      <div class="report-container">
+      <div className="app-wrapper">
             <div className="ofs-left-pane">
                 <span className="ofs-label">OFS</span>
             </div>
@@ -24,8 +25,6 @@ class ReportPage extends Component {
                     </span>  
                 </div>
             </div>
-        Report Content and filters goes here!!!
-        {/* <Button variant="primary">Hello</Button> */}
       </div>
     );
   }

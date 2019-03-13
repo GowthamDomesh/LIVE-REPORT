@@ -1,0 +1,53 @@
+.health-report-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    .report-header {
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .inner-container {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        margin-top: 15px;
+        justify-content: space-between;
+        .health-card {
+            display: flex;
+            flex: 3;
+            min-height: 200px;
+            margin: 0 8px 0 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            flex-direction: column;
+            .table-header, .table-content {
+                display: flex;
+                flex: 1;
+                flex-direction: row;
+                .inner-txt {
+                    display: flex;
+                    flex: 1;
+                    font-size: 15px;
+                    padding: 20px;
+                }
+            }
+            .table-content {
+                .inner-txt {
+                    color: #828282;
+                    font-size: 12px;
+                }
+            }
+        }
+        .health-chart {
+            display: flex;
+            flex: 2;
+            min-height: 200px;
+            margin: 0 0 0 8px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 10px;
+        }
+    }
+}

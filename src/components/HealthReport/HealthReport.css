@@ -1,0 +1,5 @@
+.health-report-container {
+    display: flex;
+    flex-direction: row;
+    background: red;
+}

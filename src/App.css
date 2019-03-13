@@ -1,81 +1,33 @@
-.report-container {
-  background-color: aliceblue;
-  font-family: serif;
-  height: 100vh;
-}
-.login-container {
-  background-color: white;
-  height: 50px;
-  width: 100%;
-  border-bottom: #eae0e0 1px inset;
-}
-.ofs-left-pane {
-  background-color: #0b36b0;
-  width: 100px;
-  height: 100vh;
-  float: left;
+.App {
   text-align: center;
 }
 
-.ofs-label {
-  font-stretch: initial;
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  height: 50px;
-  border-bottom: #eae0e0 1px inset;
-  display: grid;
 }
 
-.login-label {
-  float: right;
-  margin: 10px;
-  padding-right: 35px;
-  font-weight: bold;
+.App-link {
+  color: #61dafb;
 }
 
-.live-report-tracker-container {
-  height: 60px;
-  border-bottom: #eae0e0 1px inset;
-}
-
-.report-selection {
-  padding-right: 40px;
-}
-
-.live-report-label {
-  padding-left: 40px;
-  font-weight: bold;
-}
-
-.live-report-inner-container {
-  height: 55px;
-  padding-top: 15px;
-  width: 100%;
-}
-
-.day-report-btn {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  width: 115px;
-  height: 30px;
-  padding-bottom: -1px;
-  padding-top: 1px;
-  background-color: #0b36b0;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-}
-
-.sprint-report-btn {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 115px;
-  height: 30px;
-  padding-bottom: -1px;
-  background-color: transparent;
-  padding-top: 1px;
-  border: #0b36b0 1px solid !important;
-  color: black;
-  margin-left: -3px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
